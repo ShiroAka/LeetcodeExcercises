@@ -1,0 +1,36 @@
+﻿Given a string of lowercase English letters and an integer of the substring length, determine the substring of that length that contains the most vowels. 
+
+Vowels are in the set {a, e, i, o, u}. If there is more than one substring with the maximum number of vowels, return the one that starts at the lowest index.
+If there are no vowels in the input string, return the string 'Not found!' without quotes.
+
+
+Example 1
+
+s = 'caberqiitefg'
+k = 5
+
+The substring of length k = 5  that contains the maximum number of vowels is 'erqii' with 3 vowels.
+
+The final answer is 'erqii'.
+
+
+Example 2
+
+s = 'aeiouia'
+k = 3
+
+All of the characters are vowels, so any substring of length 3 will have 3 vowels. The lowest index substring is at index 0, 'aei'.
+
+
+Function Description
+
+Complete the function 'findSubstring' in the editor below.
+
+'findSubstring' has the following parameters:
+
+    s:  a string
+    k:  an integer
+
+Returns:
+
+    string: a string containing the final answer
